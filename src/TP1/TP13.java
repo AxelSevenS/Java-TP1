@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class TP13 {
 
+    /**
+    *  @author          Axel Sevenet
+    *  @param   binary  Le nombre en binaire à convertir en décimal
+    *  @return          Le nombre, converti en décimal
+    */
     public static int binaryToDecimal(int binary) {
         int decimal = 0;
         int power = 0;
@@ -13,6 +18,11 @@ public class TP13 {
         return decimal;
     }
 
+    /**
+     *  @author         Axel Sevenet
+     *  @param  decimal Le nombre en décimal à convertir en binaire
+     *  @return         Le nombre, converti en binaire
+     */
     public static int decimalToBinary(int decimal) {
         int binary = 0;
         int power = 0;
@@ -56,8 +66,13 @@ public class TP13 {
                     break;
                 }
             }
-
         }
+    }
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            run(scanner);
+        }
     }
 }

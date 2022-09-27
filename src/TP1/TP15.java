@@ -29,8 +29,13 @@ public class TP15 {
 
             System.out.println( String.format("La somme du tableau est %f", sum) );
 
-
         }
+    }
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            run(scanner);
+        }
     }
 }

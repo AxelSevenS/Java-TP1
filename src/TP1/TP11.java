@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class TP11 {
 
+    /**
+     *  @author     Axel Sevenet
+     *  @param  int Le nombre dont il faut afficher la racine carrée
+     */
     private static void displaySquareRoot(int number) {
         System.out.println( String.format( "La racine de %o est : %f", number, Math.sqrt(number) ) );
     }
@@ -26,6 +30,12 @@ public class TP11 {
             displaySquareRoot(input);
 
         }
+    }
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            run(scanner);
+        }
     }
 }

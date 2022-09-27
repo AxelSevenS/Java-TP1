@@ -90,6 +90,12 @@ public class TP16 {
             display2DArray(array);
 
         }
+    }
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            run(scanner);
+        }
     }
 }

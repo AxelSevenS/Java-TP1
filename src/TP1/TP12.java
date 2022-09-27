@@ -3,6 +3,12 @@ import java.util.Scanner;
 
 public class TP12 {
 
+    /**
+     * Affiche un arbre dans la console, avec les paramètres donnés
+     *  @author         Axel Sevenet
+     *  @param  height  La hauteur de l'arbre, plus spécifiquement, de ses branches.
+     *  @param  margin  L'espace vide minimum qui entoure l'arbre
+     */
     private static void displayChristmasTree(int height, int margin) {
 
         int center = Math.max(height + Math.max(margin - 1, 0), 7);
@@ -42,6 +48,12 @@ public class TP12 {
             displayChristmasTree(input, 3);
 
         }
+    }
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            run(scanner);
+        }
     }
 }
