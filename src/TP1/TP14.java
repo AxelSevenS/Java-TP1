@@ -1,7 +1,16 @@
+package TP1;
+
 import java.util.Scanner;
 
 public class TP14 {
 
+    /**
+     * Calcule la somme des N premiers termes de la suite
+     * Un = Un-1 + 1 / n avec n > 0 et U1 = 1
+     *  @author     Axel Sevenet
+     *  @param   n  Le nombre des termes de la suite à additionner
+     *  @return     La somme des n premiers termes
+     */
     public static double recursiveSequence(int n) {
         if (n == 1) return 1d;
 

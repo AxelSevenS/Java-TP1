@@ -1,3 +1,5 @@
+package TP1;
+
 import java.util.Scanner;
 
 public class Main {
@@ -8,12 +10,12 @@ public class Main {
         while (true) {
             System.out.println("Choisissez un TP :");
             System.out.println("    0- Sortir");
-            System.out.println("    1- TP11");
-            System.out.println("    2- TP12");
-            System.out.println("    3- TP13");
-            System.out.println("    4- TP14");
-            System.out.println("    5- TP15");
-            System.out.println("    6- TP16");
+            System.out.println("    1- TP1.1");
+            System.out.println("    2- TP1.2");
+            System.out.println("    3- TP1.3");
+            System.out.println("    4- TP1.4");
+            System.out.println("    5- TP1.5");
+            System.out.println("    6- TP1.6");
             int input = scanner.nextInt();
     
             switch (input) {

@@ -1,14 +1,16 @@
+package TP1;
+
 import java.lang.Math;
 import java.util.Scanner;
 
 public class TP11 {
 
     /**
-     *  @author     Axel Sevenet
-     *  @param  int Le nombre dont il faut afficher la racine carrée
+     *  @author         Axel Sevenet
+     *  @param  number  Le nombre dont il faut afficher la racine carrée
      */
     private static void displaySquareRoot(int number) {
-        System.out.println( String.format( "La racine de %o est : %f", number, Math.sqrt(number) ) );
+        System.out.printf( "La racine de %d est : %f\n", number, Math.sqrt(number) );
     }
 
     public static void run(Scanner scanner) {
